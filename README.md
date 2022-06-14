@@ -3,6 +3,8 @@
 -insert Picture
 
 
+LIVE DEMO: https://dpoppe7.github.io/React-Portfolio/
+
 > If this portfolio has inspired you and you'd like to support my work, feel free to ♥️ Sponsor the project. (insert link)
 😁 
 
