@@ -48,6 +48,18 @@ header{
     border-radius: 12rem 12rem 0 0;
 }
 
-.gradient-shape{
+.gradient-shape {
     margin-top: 0rem;
-    background-image: linear-gradient(to bottom, transparent , transparent, var(--color-bg));}
+    background-image: linear-gradient(to bottom, transparent, transparent, var(--color-bg));
+}
+
+/* ============ SCROLL DOWN =========== */
+
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
