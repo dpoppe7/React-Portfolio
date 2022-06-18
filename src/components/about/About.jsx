@@ -20,17 +20,16 @@ const About = () => {
 
         <div className='about__content'>
           <div className="about__cards">
-            
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
               <small>3+ years working experience</small>
-            
             </article>
-            <article cl assName='about__card'>
+
+            <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>300+ clients.</small>
+              <small>300+ clients worldwide.</small>
             </article>
             
             <article className='about__card'>
@@ -38,12 +37,14 @@ const About = () => {
               <h5>Projects</h5>
               <small>80+ completed projects</small>
             </article>
+          </div>
 
-            <p>
+          <p>
               Here is some information about me and the different projects 
               I've been working on as a computer science student.
-            </p>
-          </div>
+          </p>
+
+          <a href='#contact' className='btn btn-prymary'>Let's Talk</a>
         </div>
       </div>
     </section>
