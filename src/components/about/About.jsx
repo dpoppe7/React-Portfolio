@@ -11,9 +11,11 @@ const About = () => {
       <h5>Get to know</h5>
       <h2>About Me</h2>
 
-      <div className='container about_container'>
+      <div className='container about__container'>
         <div className='about__me'>
-          <img src={ME} alt="About Image"/>
+          <div className='about__me-image'>
+            <img src={ME} alt="About Image"/>
+          </div>
         </div>
 
         <div className='about__content'>
