@@ -43,9 +43,35 @@ const Experience = () => {
               <small className='text-light'>Experienced</small>
             </article>
           </div>
+         {/*END OF FRONTEND*/}
+
         </div>
         <div className="experience__backend">
-
+        <article className='experience__details'>
+              <BsPatchCheckFill/>
+              <h4>Node JS</h4>
+              <small className='text-light'>Experienced</small>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill/>
+              <h4>Mongo DB</h4>
+              <small className='text-light'>Intermediate</small>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill/>
+              <h4>PHP</h4>
+              <small className='text-light'>Intermediate</small>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill/>
+              <h4>MySQL</h4>
+              <small className='text-light'>Basic</small>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill/>
+              <h4>Python</h4>
+              <small className='text-light'>Experienced</small>
+            </article>
         </div>
       </div>
     </section>
