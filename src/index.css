@@ -10,7 +10,7 @@
    text-decoration: none;
  }
 
- :root {  /* Creating css variables, root variables can be used anywhere in the project. */
+:root {  /* Creating css variables, root variables can be used anywhere in the project. */
    --color-bg: #1f1f38; 
    --color-bg-variant: #2c2c6c;
    --color-primary: #4db5ff;
@@ -56,7 +56,7 @@ h1 {
 }
 
 section {
-   height: 100vh;
+   margin-top: 8rem;
 }
 
 section > h2, section > h5 {    /* direct child of section */
