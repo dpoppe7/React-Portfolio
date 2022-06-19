@@ -47,7 +47,9 @@ const Experience = () => {
 
         </div>
         <div className="experience__backend">
-        <article className='experience__details'>
+        <h3>Backend Development</h3>
+        <div className="experience__content">
+            <article className='experience__details'>
               <BsPatchCheckFill/>
               <h4>Node JS</h4>
               <small className='text-light'>Experienced</small>
@@ -72,6 +74,7 @@ const Experience = () => {
               <h4>Python</h4>
               <small className='text-light'>Experienced</small>
             </article>
+          </div>
         </div>
       </div>
     </section>
