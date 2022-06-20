@@ -12,7 +12,7 @@ const HeaderSocials = () => {
         <a href="https://github.com/dpoppe7" target="_blank"><FaGithub/></a>
         <a href="https://figma.com/@dpoppe7" target="_blank"><SiFigma/></a>
         <a href="https://instagram.com/dpoppe07" target="_blank"><FiInstagram/></a>
-        <a href="https://instagram.com/dpoppe07" target="_blank"><SiVsco/></a>
+        <a href="https://vsco.co/damariscph/gallery" target="_blank"><SiVsco/></a>
     </div>
   )
 }
