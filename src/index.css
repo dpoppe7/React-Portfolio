@@ -14,6 +14,7 @@
    --color-bg: #0a192f; 
    --color-bg-variant: #112240;
    --color-primary: #64ffda;
+   --color-primary-light: rgba(100, 255, 218, 0.1);
    --color-primary-variant: rgba(77, 181, 255, 0.4);
    --color-white: #fff;
    --color-light: rgba(255, 255, 255, 0.6);
@@ -94,14 +95,13 @@ a:hover {
 }
 
 .btn:hover {
-   background: var(--color-white);
-   color: var(--color-bg);
-   border-color: transparent;
+   background-color: var(--color-primary-light);
+   color: var(--color-primary);
 }
 
 .btn-primary {
-   background: var(--color-primary);
-   color: var(--color-bg);
+   background-color: var(--color-primary-light);
+   color: var(--color-primary);
 }
 
 img {
