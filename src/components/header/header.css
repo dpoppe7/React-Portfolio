@@ -28,13 +28,14 @@ header{
     position: absolute;
     left: 0;
     bottom: 3rem;
+    font-size: 20px;
 }
 
 .header__socials::after {
     content: '';
     width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
+    height: 3rem;
+    background: var(--color-light);
 }
 
 /* ============ ME =========== */
