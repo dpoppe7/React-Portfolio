@@ -30,16 +30,16 @@ h5.text-light {
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
+    position: fixed;
+    left: 3rem;
+    bottom: 0;
     font-size: 20px;
 }
 
 .header__socials::after {
     content: '';
     width: 1px;
-    height: 3rem;
+    height: 6rem;
     background: var(--color-light);
 }
 
@@ -61,8 +61,8 @@ h5.text-light {
 
 /* ============ SCROLL DOWN =========== */
 .scroll__down{
-    position: absolute;
-    right: -2.3rem;
+    position: fixed;
+    right: 1.5rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
