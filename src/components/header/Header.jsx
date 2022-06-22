@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header>
-    <div class="gradient">
+    {/* <div class="gradient"> */}
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Damaris Poppe</h1>
@@ -25,7 +25,7 @@ const Header = () => {
           <a href="#contact">Scroll Down</a>
         </div>
       </div>
-    </div>
+    {/* </div> */}
     </header>
   )
 }
