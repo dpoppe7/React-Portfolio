@@ -28,6 +28,7 @@
    --color-primary-variant: rgba(77, 181, 255, 0.4);
    --color-white: #fff;
    --color-light:  #8892b0;
+   --color-lightest: #a8b2d1;
    
    --transition: all 400ms ease;
 
@@ -85,7 +86,7 @@ section > h2 {
 }
 
 a {
-   color: var(--color-light);
+   color: var(--color-lightest);
    transition: var(--transition);
 }
 
