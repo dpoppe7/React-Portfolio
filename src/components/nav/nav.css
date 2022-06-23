@@ -1,7 +1,9 @@
+/* ==== DESKTOP VIEW ====*/
 .nav-icon {
     display: none;
 }
 
+/* ==== MOBILE VIEW ====*/
 @media screen and (max-width: 1024px) {
     .nav-icon {
         display: inline;

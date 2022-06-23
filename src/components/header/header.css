@@ -69,6 +69,34 @@ h5.text-light {
     font-size: 0.9rem;
 }
 
+/* ============ INDICATOR BARS =========== */
+.indicators__container {
+    transform: rotate(180deg);
+    position: fixed;
+    margin-left: 85%;
+}
+
+.bar {
+    content: "";
+    display: block;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 24px;
+    height: 2.5px;
+    background: var(--color-lightest);
+    margin-left: 90%;
+    transition: var(--transition);
+}
+
+.bar:hover {
+    width: 30px;
+}
+
+.indicators__container > a.active > .bar {
+    background: var(--color-primary);
+    width: 40px;
+}
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
 
@@ -81,6 +109,13 @@ h5.text-light {
     h5.text-light {
         padding-left: 28%;
         padding-right: 28%;
+    }
+
+
+    .indicators__container {
+        transform: rotate(180deg);
+        position: fixed;
+        margin-left: 88%;
     }
 }
 

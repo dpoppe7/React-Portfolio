@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/Me.jpg'
 import HeaderSocials from './HeaderSocials'
+import Indicator from './Indicator'
 
 const Header = () => {
 
@@ -24,6 +25,8 @@ const Header = () => {
         <div className='scroll__down'>
           <a href="#contact">Scroll Down</a>
         </div>
+
+        <Indicator/>
       </div>
     {/* </div> */}
     </header>
