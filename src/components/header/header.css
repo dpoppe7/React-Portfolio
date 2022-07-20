@@ -1,5 +1,5 @@
 header{
-    height: 100vh;
+    height: 106vh;
     overflow: hidden;
 }
 
@@ -103,7 +103,7 @@ h5.text-light {
 /* ============= MEDIA QUERIES (IPAD AIR)) ============== */
 @media screen and (max-width: 1024px) {
     header {
-        height: 100vh; 
+        height: 106vh; 
     }
 
     h5.text-light {
@@ -119,38 +119,10 @@ h5.text-light {
     }
 }
 
-/* ============= MEDIA QUERIES (<IPAD AIR) ============== */
-@media screen and (max-width: 820px) {
-    header {
-        height: 70vh;
-    }
-}
-
-/* ============= MEDIA QUERIES (<IPAD AIR) ============== */
-@media screen and (max-width: 819px) {
-    header {
-        height: 100vh;
-    }
-} 
-
-/* ============= MEDIA QUERIES (IPAD MINI) ============== */
-@media screen and (max-width: 768px) {
-    header {
-        height: 80vh;
-    }
-} 
-
-/* ============= MEDIA QUERIES (<IPAD MINI) ============== */
-@media screen and (max-width: 767px) {
-    header {
-        height: 100vh;
-    }
-} 
-
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 110vh;
     }
 
     .header__container h1 {
