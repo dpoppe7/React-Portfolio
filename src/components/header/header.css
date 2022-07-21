@@ -1,10 +1,10 @@
-header{
+#header{
     height: 106vh;
     overflow: hidden;
 }
 
 .header__container {
-    padding-top: 7rem;
+   
     text-align: center;
     height: 100%;
     position: relative;
@@ -102,7 +102,7 @@ h5.text-light {
 
 /* ============= MEDIA QUERIES (IPAD AIR)) ============== */
 @media screen and (max-width: 1024px) {
-    header {
+    #header {
         height: 106vh; 
     }
 
@@ -121,7 +121,7 @@ h5.text-light {
 
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
-    header {
+    #header {
         height: 110vh;
     }
 

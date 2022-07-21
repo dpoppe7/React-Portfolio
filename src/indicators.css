@@ -1,0 +1,30 @@
+@import url('https://kodhus.com/kodhus-ui/kodhus-0.1.0.min.css');
+body {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.navigation li {
+  width: 10px;
+  height: 10px;
+  background: #999;
+  border-radius: 50%;
+  margin: 20px;
+  border: 2px solid #333;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.navigation li:hover, .navigation li.selected {
+  background: none;
+  transform: scale(2);
+}

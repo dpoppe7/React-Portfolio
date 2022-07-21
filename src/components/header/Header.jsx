@@ -3,12 +3,12 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/Me.jpg'
 import HeaderSocials from './HeaderSocials'
-import Indicator from './Indicator'
+
 
 const Header = () => {
 
   return (
-    <header>
+    <section id='header'>
     {/* <div class="gradient"> */}
       <div className="container header__container">
         <h5>Hello I'm</h5>
@@ -26,10 +26,10 @@ const Header = () => {
           <a href="#contact">Scroll Down</a>
         </div>
 
-        <Indicator/>
+       
       </div>
     {/* </div> */}
-    </header>
+    </section>
   )
 }
 
