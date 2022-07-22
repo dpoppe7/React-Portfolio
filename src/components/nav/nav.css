@@ -10,25 +10,26 @@
     width: 100%;
     padding: 0.6rem;
     justify-content: right;
-    padding-right: 2rem;
+    padding-right: 3rem;
     z-index: 1;
     left: 50%;
     position: fixed;
     transform: translateX(-50%);
     top: 0rem; 
-    gap: 2.2rem;
+    gap: 2.5rem;
     backdrop-filter: blur(15px);
 }
 
 .desktop-view a {
     background: transparent;
     border-radius: 5%;
-    padding: 0.2rem;
+    padding-top: 0.5rem;
     display: flex;
     color: var(--color-light);
     display: inline-block;
     position: relative;
     transition: var(--transition);
+    font-size: 0.9rem;
 }
 
 .desktop-view a:hover {
@@ -58,8 +59,9 @@
     position: fixed;
     display: flex;
     left: 2.5rem;
-    top: 1rem;
+    top: 1.9rem;
     font-size: 25px;
+    z-index: 2;
 }
 
 .color-mode a::after {
@@ -67,13 +69,25 @@
 }
 
 .color-mode a:hover{
-    color: var(--color-primary);
+    color: var(--color-white);
     transition: var(--transition);
 }
 
 
 /* ==== MOBILE VIEW ====*/
 @media screen and (max-width: 1024px) {
+    .color-mode a{
+        display: flex;
+        flex: 1;
+        width: 100%;
+        padding: 2rem;
+        justify-content: left;
+        left: 50%;
+        position: fixed;
+        transform: translateX(-50%);
+        top: 0;
+    }
+
     .desktop-view{
         display: none;
     }
@@ -104,7 +118,7 @@
         border-radius: 50%;
         display: flex;
         color: var(--color-light);
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .mobile-view a:hover {
