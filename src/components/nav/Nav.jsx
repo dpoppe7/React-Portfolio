@@ -1,5 +1,6 @@
 import React from 'react'
 import './nav.css'
+import {FiSun} from 'react-icons/fi'
 import {AiOutlineHome} from 'react-icons/ai'
 import {BiUser} from 'react-icons/bi'
 import {BiBook} from 'react-icons/bi'
@@ -20,6 +21,9 @@ const Nav = () => {
       </div>
 
       <div className='desktop-view'>
+        <div className='color-mode'>
+          <a href="https://linkedin.com" target="_blank"><FiSun/></a>
+        </div>
         <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>Home</a>
         <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>About</a>
         <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>Experience</a>

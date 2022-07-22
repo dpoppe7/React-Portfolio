@@ -54,6 +54,23 @@
     transition: var(--transition);
 }
 
+.color-mode a {
+    position: fixed;
+    display: flex;
+    left: 2.5rem;
+    top: 1rem;
+    font-size: 25px;
+}
+
+.color-mode a::after {
+    display: none;
+}
+
+.color-mode a:hover{
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
 
 /* ==== MOBILE VIEW ====*/
 @media screen and (max-width: 1024px) {
