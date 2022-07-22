@@ -26,16 +26,34 @@
     padding: 0.2rem;
     display: flex;
     color: var(--color-light);
-    font-size: 0.rem;
+    display: inline-block;
+    position: relative;
+    transition: var(--transition);
 }
 
 .desktop-view a:hover {
     color: var(--color-white);
+    transition: var(--transition);
 }
 
-.desktop-view a.active {
+
+.desktop-view a.active{
     color: var(--color-primary); 
+    transition: var(--transition);
 }
+
+.desktop-view a:hover:after{
+    content: "";
+    position: absolute;
+    top: 1.8rem;
+    background: var(--color-primary);
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 100%;
+    left:calc(50% - 0.2rem);
+    transition: var(--transition);
+}
+
 
 /* ==== MOBILE VIEW ====*/
 @media screen and (max-width: 1024px) {

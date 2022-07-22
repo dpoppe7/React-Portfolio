@@ -8,10 +8,11 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
+    border: 1px solid var(--color-primary);
     background: linear-gradient(
         45deg,
         transparent, 
-        var(--color-primary),
+        var(--color-primary-light),
         transparent
     );
     display: grid;
