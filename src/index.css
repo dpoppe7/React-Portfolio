@@ -71,7 +71,8 @@ h1 {
 }
 
 section {
-   margin-top: 8rem;
+   margin-top: 7rem;
+   padding-top: 7rem;
 }
 
 section > h2, section > h5 {    /* direct child of section */
