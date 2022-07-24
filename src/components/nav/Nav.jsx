@@ -14,7 +14,8 @@ const Nav = () => {
     <nav> 
       <div className='color-mode'>
           <a href="https://linkedin.com" target="_blank"><FiSun/></a>
-        </div>
+      </div>
+      
       <div className='mobile-view'>
         <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome className='nav-icon'/></a>
         <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BiUser className='nav-icon'/></a>
@@ -24,7 +25,6 @@ const Nav = () => {
       </div>
 
       <div className='desktop-view'>
-        
         <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>Home</a>
         <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>About</a>
         <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>Experience</a>

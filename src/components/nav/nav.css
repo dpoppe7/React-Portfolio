@@ -59,13 +59,14 @@
     position: fixed;
     display: flex;
     left: 2.5rem;
-    top: 1.9rem;
+    top: 1.3rem;
     font-size: 25px;
     z-index: 2;
 }
 
 .color-mode a::after {
-    display: none;
+    display: none; 
+    /* No underline on hover color-mode icon */
 }
 
 .color-mode a:hover{
@@ -76,24 +77,15 @@
 
 /* ==== MOBILE VIEW ====*/
 @media screen and (max-width: 1024px) {
-    .desktop-view{
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.257), transparent);
-        display: flex;
-        flex: 1;
-        width: 100%;
-        padding: 0.6rem;
-        justify-content: right;
-        padding-right: 3rem;
-        z-index: 1;
-        left: 50%;
-        position: fixed;
-        transform: translateX(-50%);
-        top: 0rem; 
-        gap: 2.5rem;
-        backdrop-filter: blur(15px);
+    .mobile-view{
+        display: none;
     }
 
-    .color-mode a{
+    .desktop-view a:hover:after{
+        display: none;
+    }
+
+    .desktop-view .color-mode{
         display: flex;
         flex: 1;
         width: 100%;
@@ -103,6 +95,15 @@
         position: fixed;
         transform: translateX(-50%);
         top: 0;
+    }
+
+}
+
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 600px) {
+    .desktop-view{
+        display: none;
     }
 
     .nav-icon {
@@ -142,13 +143,5 @@
     .mobile-view a.active {
         background: var(--color-primary-light);
         color: var(--color-primary); 
-    }
-}
-
-
-/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
-@media screen and (max-width: 600px) {
-    .desktop-view{
-        display: none;
     }
 }
