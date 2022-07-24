@@ -3,8 +3,6 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/Me.jpg'
 import HeaderSocials from './HeaderSocials'
-import Indicators from './Indicators'
-import './indicators.css'
 
 const Header = () => {
 
