@@ -1,6 +1,5 @@
 header {
-    padding-top: 7rem;
-    height: 106vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -10,9 +9,12 @@ header {
     position: relative;
 }
 
-h5.text-light {
-    padding-left: 34%;
-    padding-right: 34%;
+.header-description {
+    margin-top: 30%;
+    text-align: left;
+    display: block;
+    width: 45%;
+    padding-left: 0;
 }
 
 /* ============ CTA =========== */
@@ -20,7 +22,7 @@ h5.text-light {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
-    justify-content: center;
+    justify-content: left;
 }
 
 /* ============ HEADER SOCIALS =========== */
@@ -49,7 +51,7 @@ h5.text-light {
     height: 30rem;
     overflow: hidden;
     position: absolute;
-    left: calc(50% - 11rem);
+    right: 0;
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
 }
@@ -99,11 +101,18 @@ h5.text-light {
 }
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
-
-/* ============= MEDIA QUERIES (IPAD AIR)) ============== */
 @media screen and (max-width: 1024px) {
     header {
-        height: 106vh; 
+        height: 100vh; 
+        padding-top: 25%;
+    }
+
+    .header-description {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        width: auto;
+        margin-top: 0;
     }
 
     h5.text-light {
@@ -111,18 +120,37 @@ h5.text-light {
         padding-right: 28%;
     }
 
-
+    /*indicators removed*/
     .indicators__container {
         transform: rotate(180deg);
         position: fixed;
         margin-left: 88%;
+    }
+
+    .me {
+        width: 22rem;
+        height: 30rem;
+        overflow: hidden;
+        position: absolute;
+        left: calc(50% - 11rem);
+        margin-top: 4rem;
+        border-radius: 12rem 12rem 0 0;
+    }
+    
+    .gradient-shape {
+        margin-top: 0rem;
+        background-image: linear-gradient(to bottom, transparent, transparent, var(--color-bg));
+    }
+
+    .cta {
+        justify-content: center;
     }
 }
 
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
     header {
-        height: 110vh;
+        height: 100vh;
     }
 
     .header__container h1 {
@@ -137,5 +165,9 @@ h5.text-light {
     .header__socials,
     .scroll__down {
         display: none;
+    }
+
+    .cta {
+        justify-content: center;
     }
 } 
