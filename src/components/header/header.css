@@ -14,7 +14,7 @@ header {
     text-align: left;
     display: block;
     width: 51%;
-    margin-top: 25%;
+    margin-top: 24%;
     padding-left: 0;
 }
 
@@ -142,8 +142,12 @@ h2.text-light{
     }
 
     h5.text-light {
-        padding-left: 28%;
-        padding-right: 28%;
+        padding-left: 19%;
+        padding-right: 19%;
+    }
+
+    h2.text-light{
+        font-size: 1rem;
     }
 
     /*indicators removed*/
@@ -177,7 +181,7 @@ h2.text-light{
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
     header {
-        height: 120vh;
+        height: 141vh;
     }
 
     .header__container h1 {
@@ -187,6 +191,10 @@ h2.text-light{
     h5.text-light {
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    h2.text-light{
+        font-size: 0.8rem;
     }
 
     .header__socials,
