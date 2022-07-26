@@ -1,9 +1,8 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me2.jpeg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {AiOutlineFolderOpen} from 'react-icons/ai'
+import {FiArrowUpRight} from 'react-icons/fi'
+
 
 const About = () => {
   return (
@@ -19,29 +18,16 @@ const About = () => {
         </div>
 
         <div className='about__content'>
-          <div className="about__cards">
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ years working experience</small>
-            </article>
-
-            <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>300+ clients worldwide.</small>
-            </article>
-            
-            <article className='about__card'>
-              <AiOutlineFolderOpen className='about__icon'/>
-              <h5>Projects</h5>
-              <small>80+ completed projects</small>
-            </article>
-          </div>
-
+          <h2>
+            Nice to meet you!
+          </h2>
           <p>
-              Here is some information about me and the different projects 
-              I've been working on as a computer science student.
+          My name is Damaris, I'm currently a senior student pursuing a <span className='accent'>BS in Computer Science with a Math minor</span> at Harding University, Arkansas. <br/><br/>
+
+          Through my 4-year journey I learned about solving challenges through simplifying the complexity with <span className='accent'>intuitive software and system design</span>.
+          I also enjoy implementing <span className='accent'>visually appealing solutions</span> with a human-focused approach in web/app development. <br/><br/>
+
+          You can find me posting content on my <span className='accent-link'>github<FiArrowUpRight/></span> <br/>
           </p>
 
           <a href='#contact' className='btn btn-prymary'>Let's Talk</a>

@@ -30,45 +30,28 @@
     transform: rotate(0);
 }
 
-.about__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+.about__content p {
+    margin: 0rem 0 2.6rem;
+    color: var(--color-light);
 }
 
-.about__card {
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: center;
+.about__content p .accent {
+    color: var(--color-white);
+}
+
+.accent-link{
+    color: var(--color-white);
+}
+
+.accent-link:hover {
+    color: var(--color-primary);
+    cursor: pointer;
     transition: var(--transition);
 }
 
-.about__card:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-}
-
-.about__icon {
-    color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
-
-.about__card h5 {
-    font-size: 0.95rem;
-}
-
-.about__card small {
-    font-size: 0.7rem;
-    color: var(--color-light);
-}
-
-.about__content p {
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+.link-icon {
+    font-size: 20px;
+    padding-top: 2px;
 }
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
