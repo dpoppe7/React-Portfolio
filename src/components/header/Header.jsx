@@ -13,11 +13,17 @@ const Header = () => {
         <div className='header-description'>
           <h5>Hello, I'm</h5>
           <h1>Damaris Poppe</h1>
+          <h2 className="text-light">
+            I'm a creative developer and visual design enthusiast.
+          </h2>
           <h5 className="text-light">
-            I'm a creative developer and visual design enthusiast. Currently pursuing a Bachelor of Science 
+            Currently pursuing a Bachelor of Science 
             in Computer Science with a Math minor.
-            Studying at Harding University in Arkansas.
-            </h5>
+            Studying at Harding University in Arkansas. 
+          </h5>
+          <h5 className="intern-txt text-light">
+            Looking for a Fall Internship, 2022.
+          </h5>
           <CTA/>
         </div>
         <HeaderSocials/> 

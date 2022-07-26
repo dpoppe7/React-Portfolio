@@ -18,6 +18,16 @@ header {
     padding-left: 0;
 }
 
+h2.text-light{
+    color: var(--color-primary);
+}
+
+.intern-txt.text-light{
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    text-decoration-color: var(--color-lightest);  
+}
+
 /* ============ CTA =========== */
 .cta {
     margin-top: 2.5rem;
