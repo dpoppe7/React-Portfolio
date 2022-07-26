@@ -134,7 +134,7 @@ h2.text-light{
 @media screen and (max-width: 1024px) {
     header {
         height: 130vh;
-        padding-top: 22%;
+        padding-top: 20%;
     }
 
     .header-description {
@@ -193,12 +193,14 @@ h2.text-light{
     }
 
     h5.text-light {
-        padding-left: 10%;
-        padding-right: 10%;
+        text-align: left;
+        width: fit-content;
+        padding: 0 2rem;
     }
 
     h2.text-light{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        padding: 0 3rem;
     }
 
     .header__socials,

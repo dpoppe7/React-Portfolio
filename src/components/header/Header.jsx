@@ -14,12 +14,10 @@ const Header = () => {
           <h5>Hello, I'm</h5>
           <h1>Damaris Poppe</h1>
           <h2 className="text-light">
-            I'm a creative developer and visual design enthusiast.
+            I'm a creative software developer and visual design enthusiast.
           </h2>
           <h5 className="text-light">
-            Currently pursuing a Bachelor of Science 
-            in Computer Science with a Math minor.
-            Studying at Harding University in Arkansas. 
+            Studying CS at Harding University in Arkansas. 
           </h5>
           <h5 className="intern-txt text-light">
             Looking for a Fall Internship, 2022.
