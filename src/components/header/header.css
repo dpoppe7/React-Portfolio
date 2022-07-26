@@ -10,10 +10,11 @@ header {
 }
 
 .header-description {
-    margin-top: 30%;
+    padding-top: 0;
     text-align: left;
     display: block;
-    width: 45%;
+    width: 58%;
+    margin-top: 25%;
     padding-left: 0;
 }
 
@@ -47,17 +48,17 @@ header {
 
 /* ============ ME =========== */
 .me {
-    width: 22rem;
-    height: 30rem;
+    width: 24rem;
+    height: 32rem;
     overflow: hidden;
     position: absolute;
     right: 0;
-    margin-top: 4rem;
+    bottom: 50%;
     border-radius: 12rem 12rem 0 0;
 }
 
 .gradient-shape {
-    margin-top: 0rem;
+    bottom: 6%;
     background-image: linear-gradient(to bottom, transparent, transparent, var(--color-bg));
 }
 
@@ -100,6 +101,20 @@ header {
     width: 40px;
 }
 
+/* ============= MEDIA QUERIES (BIG DEVICES) ============== */
+@media screen and (min-width: 1800px) {
+    header {
+        height: 100vh; 
+        padding-top: 8%;
+    }
+    .me {
+        bottom: 57%;
+    }
+    .gradient-shape {
+        bottom: 6%;
+    }
+}
+
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
     header {
@@ -134,11 +149,12 @@ header {
         position: absolute;
         left: calc(50% - 11rem);
         margin-top: 4rem;
+        bottom: auto;
         border-radius: 12rem 12rem 0 0;
     }
     
     .gradient-shape {
-        margin-top: 0rem;
+        bottom: 8%;
         background-image: linear-gradient(to bottom, transparent, transparent, var(--color-bg));
     }
 
@@ -150,7 +166,7 @@ header {
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 120vh;
     }
 
     .header__container h1 {

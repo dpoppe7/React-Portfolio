@@ -35,6 +35,7 @@
    
    --transition: all 400ms ease;
 
+   --container-width-lgr: 60%;
    --container-width-lg: 75%;
    --container-width-md: 86%;
    --container-width-sm: 90%;
@@ -123,6 +124,17 @@ img {
    display: block;
    width: 100%;
    object-fit: cover;
+}
+
+/* ============= MEDIA QUERIES (BIG DEVICES) ============== */
+@media screen and (min-width: 1800px) {
+   .container {
+      width: var(--container-width-lgr);
+   }
+
+   section {
+      margin-top: 6rem;
+   }
 }
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
