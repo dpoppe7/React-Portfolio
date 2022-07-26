@@ -119,7 +119,7 @@
         position: fixed;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 2rem;
+        bottom: 1.5rem;
         display: flex;
         gap: 0.8rem;
         border-radius: 3rem;

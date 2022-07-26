@@ -24,13 +24,13 @@ const About = () => {
           <p>
           My name is Damaris, I'm currently a senior student pursuing a <span className='accent'>BS in Computer Science with a Math minor</span> at Harding University, Arkansas. <br/><br/>
 
-          Through my 4-year journey I learned about solving challenges through simplifying the complexity with <span className='accent'>intuitive software and system design</span>.
+          Through my 4-year journey I learned about solving challenges through simplifying the complexity with <span className='accent'>intuitive system design and software design</span>.
           I also enjoy implementing <span className='accent'>visually appealing solutions</span> with a human-focused approach in web/app development. <br/><br/>
 
           You can find me posting content on my <span className='accent-link'>github<FiArrowUpRight/></span> <br/>
           </p>
 
-          <a href='#contact' className='btn btn-prymary'>Let's Talk</a>
+          <a href='#contact' className='btn btn-prymary'>Get my resume</a>
         </div>
       </div>
     </section>
