@@ -10,7 +10,7 @@ header {
 }
 
 .header-description {
-    padding-top: 0;
+    padding-top: 4%;
     text-align: left;
     display: block;
     width: 51%;
@@ -63,7 +63,7 @@ h2.text-light{
     overflow: hidden;
     position: absolute;
     right: 0;
-    bottom: 50%;
+    bottom: 45%;
     border-radius: 12rem 12rem 0 0;   
 }
 
@@ -118,6 +118,10 @@ h2.text-light{
         height: 100vh; 
         padding-top: 8%;
     }
+
+    .header-description {
+        padding-top: 0%;
+    }
     .me {
         bottom: 57%;
     }
@@ -129,8 +133,8 @@ h2.text-light{
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
     header {
-        height: 100vh; 
-        padding-top: 25%;
+        height: 130vh;
+        padding-top: 22%;
     }
 
     .header-description {
