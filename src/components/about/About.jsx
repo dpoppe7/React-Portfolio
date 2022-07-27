@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me2.jpeg'
 import {FiArrowUpRight} from 'react-icons/fi'
+import CV from '../../assets/Resume.v1.pdf'
 
 
 const About = () => {
@@ -30,7 +31,7 @@ const About = () => {
           You can find me posting content on my <span className='accent-link'>github<FiArrowUpRight/></span> <br/>
           </p>
 
-          <a href='#contact' className='btn btn-prymary'>Get my resume</a>
+          <a href={CV} target='_blank' className='btn'>Get my resume</a>
         </div>
       </div>
     </section>
