@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import {MdDone} from 'react-icons/md'
+import {BiBookBookmark} from 'react-icons/bi'
 import {VscDebugBreakpointFunctionUnverified} from 'react-icons/vsc'
 
 const Experience = () => {
@@ -76,23 +77,41 @@ const Experience = () => {
       <div className='container courses__container'>
         <div className='courses__content'>
           <div className='courses__box'>
-            <p>
+            <p className='courses__sentence'>
               Cool courses I'm taking at HU<br/>
             </p>
           </div>
 
-          <div className='courses__box'>
-            <p>iOS Development</p>
+          <div className='courses__box courses__list'>
+            <p>
+              <BiBookBookmark className='icon__class'/>
+              iOS Development
+            </p>
 
-            <p>Android Development</p>
+            <p>
+              <MdDone className='icon__class'/>
+              Android Development
+            </p>
 
-            <p>Applied Algorithms</p>
+            <p>
+              <MdDone className='icon__class'/>
+              Applied Algorithms
+            </p>
 
-            <p>Operating Systems</p>
+            <p>
+              <MdDone className='icon__class'/>
+              Operating Systems
+            </p>
 
-            <p>Database and Networking</p>
+            <p>
+              <MdDone className='icon__class'/>
+              Database and Networking
+            </p>
 
-            <p>Linear Algebra</p>
+            <p>
+              <MdDone className='icon__class'/>
+              Linear Algebra
+            </p>
           </div>
         </div>
       </div>

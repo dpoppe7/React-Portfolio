@@ -47,7 +47,7 @@
 
 .courses__content {
     display: grid;
-    margin-top: 3rem;
+    margin-top: 0rem;
     grid-template-columns: 1fr 1fr;
     gap: 0;
 }
@@ -56,16 +56,27 @@
     color: var(--color-light);
     display: grid;
     grid-template-columns: 1fr;
-    gap: 3rem;
-    border-radius: 2rem;
-    margin-top: 2rem;
+    gap: 1rem;
+    margin-top: 1rem;
     padding: 1rem 0;
     align-self: start;
     justify-items: left;
-    background: var(--color-primary-variant-bg);
-    border: 1px solid var(--color-primary-variant);
-    transition: var(--transition);
 }
+
+.courses__list{
+    margin-top: 3rem;
+}
+
+.courses__sentence {
+    color: var(--color-lightest);
+}
+
+.icon__class {
+    margin-right: 0.5rem;
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
@@ -88,5 +99,13 @@
     .skills__content {
         padding-left: 5%;
         padding-right: 3%;
+    }
+
+    .courses__content {
+        grid-template-columns: 1fr;
+    }
+
+    .courses__list{
+        margin: 0 1rem;
     }
 } 
