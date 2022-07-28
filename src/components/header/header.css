@@ -135,7 +135,7 @@ h2.text-light{
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
     header {
-        padding-bottom: 60%;
+        padding-bottom: 78%;
         padding-top: 20%;
     }
 
@@ -187,7 +187,8 @@ h2.text-light{
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
     header {
-        height: 141vh;
+        padding-bottom: 113%;
+        padding-top: 4.5rem;
     }
 
     .header__container h1 {
@@ -213,6 +214,11 @@ h2.text-light{
     }
 
     .cta {
+        margin-top: 2rem;
         justify-content: center;
+    }
+
+    .me {
+        margin-top: 3rem;
     }
 } 
