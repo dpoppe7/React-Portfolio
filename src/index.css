@@ -25,6 +25,7 @@
    --color-primary: rgb(87, 214, 242);
    --color-primary-light: rgba(87, 214, 242, 0.1);
    --color-primary-variant: rgba(77, 181, 255, 0.4);
+   --color-primary-variant-bg: rgba(77, 181, 255, 0.057);
    --color-white: #fff;
    --color-light:  #8892b0;
    --color-lightest: #a8b2d1;

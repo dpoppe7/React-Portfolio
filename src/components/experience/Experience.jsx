@@ -1,110 +1,98 @@
 import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import {VscDebugBreakpointFunctionUnverified} from 'react-icons/vsc'
 
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>The Skills I have</h5>
-      <h2>My Experience</h2>
+      <h5>Some of my</h5>
+      <h2>Skills</h2>
 
-      <div className='container experience__container'>
-        <div className="experience__frontend">
-          <h3>Frontend Development</h3>
-          <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
+      <div className='container skills__container'>
+        <p>
+          Here are a few technologies and languages I've been working with recently:<br/>
+        </p>
+     
+        <div className='skills__content'>
+          <article className='skills__item'>
+            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                  <p>React.js</p>
               </div>
-            </article>
+          </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
+          <article className='skills__item'>
+            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
               <div>
-                <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
+                  <p>Phyton</p>
               </div>
-            </article>
+          </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
+          <article className='skills__item'>
+            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
               <div>
-                <h4>Javascript</h4>
-                <small className='text-light'>Experienced</small>
+                  <p>C++, C#</p>
               </div>
-            </article>
+          </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
+          <article className='skills__item'>
+            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
               <div>
-                <h4>Bootstrap</h4>
-                <small className='text-light'>Experienced</small>
+                  <p>PHP</p>
               </div>
-            </article>
+          </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
+          <article className='skills__item'>
+            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
               <div>
-                <h4>Tailwind</h4>
-                <small className='text-light'>Experienced</small>
+                  <p>Kotlin</p>
               </div>
-            </article>
+          </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
+          <article className='skills__item'>
+            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
               <div>
-                <h4>React</h4>
-                <small className='text-light'>Experienced</small>
+                  <p>Unity, Blender</p>
               </div>
-            </article>
-          </div>
-         {/*END OF FRONTEND*/}
+          </article>
 
+          <article className='skills__item'>
+            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
+              <div>
+                  <p>Swift</p>
+              </div>
+          </article>
+
+          <article className='skills__item'>
+            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
+              <div>
+                  <p>Figma</p>
+              </div>
+          </article>
         </div>
-        <div className="experience__backend">
-        <h3>Backend Development</h3>
-        <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>Node JS</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
+      </div>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>Mongo DB</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
+      <div className='container courses__container'>
+        <div className='courses__content'>
+          <div className='courses__box'>
+            <p>
+              Cool courses I'm taking at HU<br/>
+            </p>
+          </div>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>PHP</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
+          <div className='courses__box'>
+            <p>iOS Development</p>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>MySQL</h4>
-                <small className='text-light'>Basic</small>
-              </div>
-            </article>
+            <p>Android Development</p>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>Python</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
+            <p>Applied Algorithms</p>
+
+            <p>Operating Systems</p>
+
+            <p>Database and Networking</p>
+
+            <p>Linear Algebra</p>
           </div>
         </div>
       </div>

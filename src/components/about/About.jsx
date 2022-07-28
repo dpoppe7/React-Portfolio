@@ -23,12 +23,12 @@ const About = () => {
             Nice to meet you!
           </h2>
           <p>
-          My name is Damaris, I'm currently a senior student pursuing a <span className='accent'>BS in Computer Science with a Math minor</span> at Harding University, Arkansas. <br/><br/>
+            My name is Damaris, I'm currently a senior student pursuing a <span className='accent'>BS in Computer Science with a Math minor</span> at Harding University, Arkansas. <br/><br/>
 
-          Through my 4-year journey I learned about solving challenges through simplifying the complexity with <span className='accent'>intuitive system design and software design</span>.
-          I also enjoy implementing <span className='accent'>visually appealing solutions</span> with a human-focused approach in web/app development. <br/><br/>
+            Through my 4-year journey I learned about solving challenges through simplifying the complexity with <span className='accent'>intuitive system design and software design</span>.
+            I also enjoy implementing <span className='accent'>visually appealing solutions</span> with a human-focused approach in web/app development. <br/><br/>
 
-          You can find me posting content on my <span className='accent-link'>github<FiArrowUpRight/></span> <br/>
+            You can find me posting content on my <span className='accent-link'>github<FiArrowUpRight/></span> <br/><br/>
           </p>
 
           <a href={CV} target='_blank' className='btn'>Get my resume</a>
