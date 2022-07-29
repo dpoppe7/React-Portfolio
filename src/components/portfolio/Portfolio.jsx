@@ -7,6 +7,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
+    project: 'Web Dev Project',
     title: 'Crypto currency dashboard & financial visualization',
     github: 'https://github.com',
     demo: 'https://dribbble.com/'
@@ -14,6 +15,7 @@ const data = [
   {
     id: 2,
     image: IMG1,
+    project: 'Web Dev Project',
     title: 'Crypto currency dashboard & financial visualization',
     github: 'https://github.com',
     demo: 'https://dribbble.com/'
@@ -21,6 +23,7 @@ const data = [
   {
     id: 3,
     image: IMG1,
+    project: 'Web Dev Project',
     title: 'Crypto currency dashboard & financial visualization',
     github: 'https://github.com',
     demo: 'https://dribbble.com/'
@@ -35,12 +38,13 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({id, image, project, title, github, demo}) => {
             return (
               <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
                 <img src={image} alt={title}/>
               </div>
+              <h5 className='project'>{project}</h5>
               <h3>{title}</h3>
               <div className='portfolio__item-cla'>
                 <a href={github} className='btn' target='_blank'>Github</a>
