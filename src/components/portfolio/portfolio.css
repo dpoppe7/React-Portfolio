@@ -39,26 +39,23 @@
     margin: 0rem 0 1.5rem;
 }
 
-.portfolio__item-cla {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
 .description {
     width: 49%;
     color: var(--color-lightest);
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
-.project-link{
-    
+.github-link{
+    font-size: 20px;
+}
+
+.demo-link{
+    padding-left: 1rem;
     font-size: 25px;
 }
 
 .tags {
     color: var(--color-primary);
-    
     font-size: 15px;
     word-spacing: 10px;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import {FiGithub} from 'react-icons/fi'
+import {HiOutlineExternalLink} from 'react-icons/hi'
 import IMG1 from '../../assets/Sky orange.jpeg'
 import P1_pic1 from '../../assets/P1_pic1.png'
 import P1_pics from '../../assets/P1_pics.png'
@@ -53,10 +54,10 @@ const Portfolio = () => {
               <h5 className='project'>{project}</h5>
               <h3>{title}</h3>
 
-              
               <p className='description'>{description}</p>
               
-              <a href="https://github.com/dpoppe7" target="_blank" className='project-link'><FiGithub/></a>
+              <a href="https://github.com/dpoppe7" target="_blank" className='github-link'><FiGithub/></a>
+              <a href="http://taz.harding.edu/~dpoppe/myfacespace/login.php" target="_blank" className='demo-link'><HiOutlineExternalLink/></a>
               <p className='tags'>{tags}</p>
               </article>
             )
