@@ -12,7 +12,7 @@ const data = [
     id: 1,
     image: P1_pics,
     project: 'Web Dev Project',
-    title: 'Social Network - MyfaceSpace',
+    title: 'Social Network - MyFaceSpace',
     github: 'https://github.com/dpoppe7/webDev-Social-Network-Project',
     description: 'A Social Networking website that works similar to the first version of Facebook. The scripts interact with a database where data for different accounts is stored. This project implements user authentication, sessions and a simple clean UI.',
     tags: 'Database HTML CSS Javascript PHP MySQL',
@@ -21,8 +21,8 @@ const data = [
   {
     id: 2,
     image: IMG1,
-    project: 'Web Dev Project',
-    title: 'Crypto currency dashboard & financial visualization',
+    project: 'Game Dev Group Project',
+    title: 'Rocket Rush - Capstone',
     github: 'https://github.com',
     demo: 'https://dribbble.com/'
   },
@@ -48,11 +48,15 @@ const Portfolio = () => {
             return (
               <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <img src={image} alt={title}/>
+                <a href={github}>
+                  <img src={image} alt={title}/>
+                </a>
               </div>
 
               <h5 className='project'>{project}</h5>
-              <h3>{title}</h3>
+              <a href={github} className='title'>
+                <h3>{title}</h3>
+              </a>
 
               <p className='description'>{description}</p>
               
