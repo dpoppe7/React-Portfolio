@@ -7,7 +7,7 @@ import {VscDebugBreakpointFunctionUnverified} from 'react-icons/vsc'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>Some of my</h5>
+      <h5></h5>
       <h2>Skills</h2>
 
       <div className='container skills__container'>
