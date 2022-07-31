@@ -8,9 +8,9 @@ const data = [
     id: 1,
     image: IMG1,
     project: 'Web Dev Project',
-    title: 'Crypto currency dashboard & financial visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/'
+    title: 'Social Network',
+    github: 'https://github.com/dpoppe7/webDev-Social-Network-Project',
+    demo: 'http://taz.harding.edu/~dpoppe/myfacespace/login.php'
   },
   {
     id: 2,
@@ -23,9 +23,9 @@ const data = [
   {
     id: 3,
     image: IMG1,
-    project: 'Web Dev Project',
-    title: 'Crypto currency dashboard & financial visualization',
-    github: 'https://github.com',
+    project: 'Capstone group Project',
+    title: 'Rocket Rush',
+    github: 'https://github.com/dpoppe7/SpaceRace',
     demo: 'https://dribbble.com/'
   }
 ]
