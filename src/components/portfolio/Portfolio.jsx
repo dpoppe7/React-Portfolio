@@ -3,8 +3,8 @@ import './portfolio.css'
 import {FiGithub} from 'react-icons/fi'
 import {HiOutlineExternalLink} from 'react-icons/hi'
 import IMG1 from '../../assets/Sky orange.jpeg'
-import P1_pic1 from '../../assets/P1_pic1.png'
 import P1_pics from '../../assets/P1_pics.png'
+import P2_pics2 from '../../assets/P2_pics2.png'
 
 /* Array of Data */
 const data = [
@@ -20,11 +20,13 @@ const data = [
   },
   {
     id: 2,
-    image: IMG1,
+    image: P2_pics2,
     project: 'Game Dev Group Project',
     title: 'Rocket Rush - Capstone',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/'
+    github: 'https://github.com/dpoppe7/SpaceRace',
+    description: 'A 3D game based on the board game Santorini. This project implements Networking and AI features for different game modes, multiplayer or single player. The GUI of the game was my main focus.',
+    tags: 'Unity C# 3D Blender PUN2 SharpNEAT InnoWizard',
+    demo: 'https://play.unity.com/mg/other/rocketrushweb'
   },
   {
     id: 3,
@@ -60,8 +62,8 @@ const Portfolio = () => {
 
               <p className='description'>{description}</p>
               
-              <a href="https://github.com/dpoppe7" target="_blank" className='github-link'><FiGithub/></a>
-              <a href="http://taz.harding.edu/~dpoppe/myfacespace/login.php" target="_blank" className='demo-link'><HiOutlineExternalLink/></a>
+              <a href={github} target="_blank" className='github-link'><FiGithub/></a>
+              <a href={demo} target="_blank" className='demo-link'><HiOutlineExternalLink/></a>
               <p className='tags'>{tags}</p>
               </article>
             )
