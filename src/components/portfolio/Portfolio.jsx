@@ -5,6 +5,7 @@ import {HiOutlineExternalLink} from 'react-icons/hi'
 import IMG1 from '../../assets/Sky orange.jpeg'
 import P1_pics from '../../assets/P1_pics.png'
 import P2_pics2 from '../../assets/P2_pics2.png'
+import P3_pic from '../../assets/Storyboard_PMapp.png'
 
 /* Array of Data */
 const data = [
@@ -30,10 +31,12 @@ const data = [
   },
   {
     id: 3,
-    image: IMG1,
-    project: 'Capstone group Project',
-    title: 'Rocket Rush',
-    github: 'https://github.com/dpoppe7/SpaceRace',
+    image: P3_pic,
+    project: 'Android App Group Project',
+    title: 'Password Manager App',
+    github: 'https://github.com/dpoppe7/Password-Manager-Project',
+    description: 'A basic Password Manager Android app that allows users to store different usernames, passwords, for multiple accounts to never forget their credentials. This app checks whether the data has been involved in a breach using  API implementation from Have I Been Pwned.',
+    tags: 'Kotlin Android Volley API RecyclerViews Figma',
     demo: 'https://dribbble.com/'
   }
 ]
