@@ -31,7 +31,16 @@
     width: 50%;
     margin: 0;
     object-fit: contain;
-    display: flex
+    display: flex;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.portfolio__item-image:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.03);
 }
 
 .portfolio__item h5.project{
@@ -80,6 +89,11 @@
 
     .description {
         width: auto;
+    }
+
+    .portfolio__item-image:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.02);
     }
 }
  

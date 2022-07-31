@@ -50,13 +50,13 @@ const Portfolio = () => {
             return (
               <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <a href={github}>
+                <a href={github} target="_blank">
                   <img src={image} alt={title}/>
                 </a>
               </div>
 
               <h5 className='project'>{project}</h5>
-              <a href={github} className='title'>
+              <a href={github} target="_blank" className='title'>
                 <h3>{title}</h3>
               </a>
 
