@@ -1,6 +1,7 @@
 import React from 'react'
 import './nav.css'
 import {FiSun} from 'react-icons/fi'
+import {FiMoon} from 'react-icons/fi'
 import {AiOutlineHome} from 'react-icons/ai'
 import {BiUser} from 'react-icons/bi'
 import {GoLightBulb} from 'react-icons/go'
@@ -16,7 +17,8 @@ const Nav = () => {
   return (
     <nav> 
       <div className='color-mode' id='theme-toggler'>
-          <a id='theme-icon'><FiSun/></a>
+          <span className='theme-icon'><FiSun/></span>
+          <span className='theme-icon active'><FiMoon/></span>
       </div>
       
       <div className='mobile-view'>

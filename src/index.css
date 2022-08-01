@@ -36,6 +36,7 @@
 
    --color-nav: rgba(0, 0, 0, 0.25);
    --color-nav-icon: #75777f;
+   --color-toggle-active: rgba(77, 213, 255, 0.352);
    
    --transition: all 400ms ease;
 
@@ -59,6 +60,7 @@
 
    --color-nav: rgba(135, 135, 135, 0.194);
    --color-nav-icon: #75777f;
+   --color-toggle-active: rgba(77, 213, 255, 0.54);
 
    background-image: none;
 }
