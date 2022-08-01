@@ -17,6 +17,10 @@
 
 /*========== CONTACT ===========*/
 
+.contact_link:hover{
+   text-shadow: 2px 2px 5px var(--color-primary);
+}
+
 .contact__option-icon {
    font-size: 1.5rem;
 }
