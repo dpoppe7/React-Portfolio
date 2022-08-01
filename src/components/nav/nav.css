@@ -109,6 +109,17 @@
     .nav-icon {
         display: inline;
     }
+
+    .color-mode{
+        display: flex;
+        flex: 1;
+        width: 100%;
+        justify-content: left;
+        left: 45%;
+        position: absolute;
+        transform: translateX(-50%);
+        top: 0;
+    }
     
     .mobile-view {
         background: rgba(0, 0, 0, 0.3);
