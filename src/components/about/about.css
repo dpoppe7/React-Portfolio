@@ -39,14 +39,8 @@
     color: var(--color-white);
 }
 
-.accent-link{
+.github_link{
     color: var(--color-white);
-}
-
-.accent-link:hover {
-    color: var(--color-primary);
-    cursor: pointer;
-    transition: var(--transition);
 }
 
 .link-icon {

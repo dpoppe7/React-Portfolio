@@ -28,7 +28,7 @@ const About = () => {
             Through my 4-year journey I learned about solving challenges through simplifying the complexity with <span className='accent'>intuitive system design and software design</span>.
             I also enjoy implementing <span className='accent'>visually appealing solutions</span> with a human-focused approach in web/app development. <br/><br/>
 
-            You can find me posting content on my <span className='accent-link'>github<FiArrowUpRight/></span> <br/><br/>
+            You can find me posting content on my <a href="https://github.com/dpoppe7" target="_blank" className='github_link'>github<FiArrowUpRight className='link-icon'/></a><br/><br/>
           </p>
 
           <a href={CV} target='_blank' className='btn'>Get my resume</a>
