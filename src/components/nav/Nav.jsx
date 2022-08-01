@@ -9,12 +9,14 @@ import {TbMessage} from 'react-icons/tb'
 import {VscSmiley} from 'react-icons/vsc'
 import {useState} from 'react'
 
+
 const Nav = () => {
+
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav> 
-      <div className='color-mode'>
-          <a href="https://linkedin.com" target="_blank"><FiSun/></a>
+      <div className='color-mode' id='theme-toggler'>
+          <a id='theme-icon'><FiSun/></a>
       </div>
       
       <div className='mobile-view'>

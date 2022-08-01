@@ -2,9 +2,18 @@
  import ReactDOM from 'react-dom'
  import App from './App'
  import './index.css'
+ import {AiOutlineHome} from 'react-icons/ai'
 
 
  ReactDOM.render(<App/>, document.querySelector("#root"));
+
+ const themeToggler = document.querySelector("#theme-toggler")
+
+ //change theme
+ themeToggler.addEventListener('click', () => {
+    document.body.classList.toggle('light-theme');
+
+ })
 
  //Gradient effect(by Uzo Awili)
 //  const gradient = document.querySelector(".gradient");

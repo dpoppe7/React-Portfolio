@@ -18,6 +18,9 @@
    list-style: none;
    text-decoration: none;
  }
+*::selection{
+   background: var(--color-selector);
+}
 
 :root {  /* Creating css variables, root variables can be used anywhere in the project. */
    --color-bg: rgb(4, 20, 39); 
@@ -29,6 +32,10 @@
    --color-white: #fff;
    --color-light:  #8892b0;
    --color-lightest: #a8b2d1;
+   --color-selector: rgba(117, 187, 234, 0.194);
+
+   --color-nav: rgba(0, 0, 0, 0.25);
+   --color-nav-icon: #75777f;
    
    --transition: all 400ms ease;
 
@@ -36,6 +43,24 @@
    --container-width-lg: 75%;
    --container-width-md: 70%;
    --container-width-sm: 85%;
+}
+
+.light-theme{
+   --color-bg: #ffffffbb; 
+   --color-bg-variant: #112240;
+   --color-primary: rgb(3, 179, 243);
+   --color-primary-light: rgba(87, 214, 242, 0.294);
+   --color-primary-variant: rgb(47, 172, 240);
+   --color-primary-variant-bg: rgba(77, 213, 255, 0.171);
+   --color-white: rgb(0, 0, 0);
+   --color-light:  #75777f;
+   --color-lightest: #74777c;
+   --color-selector: rgba(117, 187, 234, 0.269);
+
+   --color-nav: rgba(135, 135, 135, 0.194);
+   --color-nav-icon: #75777f;
+
+   background-image: none;
 }
 
 html {

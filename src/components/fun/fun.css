@@ -44,7 +44,7 @@
 }
 
 .item__text {
-    color: var(--color-lightest);
+    color: var(--color-white);
     text-transform: uppercase;
     padding-bottom: 5px;
 }

@@ -4,7 +4,7 @@
 }
 
 .desktop-view{
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.257), transparent);
+    background: linear-gradient(to bottom, var(--color-nav), transparent);
     display: flex;
     flex: 1;
     width: 100%;
@@ -122,7 +122,7 @@
     }
     
     .mobile-view {
-        background: rgba(0, 0, 0, 0.3);
+        background: var(--color-nav);
         width: max-content;
         display: block;
         padding: 0.7rem 1.7rem;
