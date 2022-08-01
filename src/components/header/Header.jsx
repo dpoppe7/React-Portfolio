@@ -32,7 +32,7 @@ const Header = () => {
         </div>
 
         <div className='scroll__down'>
-          <a href="#contact">Scroll Down</a>
+          <a href="#fun">Scroll Down</a>
         </div>
       </div>
     {/* </div> */}
