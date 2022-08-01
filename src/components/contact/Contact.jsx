@@ -1,8 +1,6 @@
 import React from 'react'
 import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
-import { RiMessengerLine } from 'react-icons/ri'
-import { BsWhatsapp } from 'react-icons/bs'
 
 const Contact = () => {
   return (
@@ -11,11 +9,12 @@ const Contact = () => {
       <h2> Contact Me</h2>
       
       <div className='container contact__container'>
-      <div className='contact_link'>
-        <MdOutlineEmail className='contact__option-icon'/>
-        <h5>damariscecilia29@gmail.com</h5>
-      </div>
-      
+        <div className='contact_link'>
+          <a href='mailto:damariscecilia29@gmail.com' target="_blank" className='contact_link'>
+            <MdOutlineEmail className='contact__option-icon'/>
+            <h5>damariscecilia29@gmail.com</h5>
+          </a>
+        </div>
 
         <form action=''>
           <h2 className='connect_desc'>

@@ -33,10 +33,13 @@
    cursor: pointer;
 }
 
-h4 {
-   color: var(--color-primary);
+a {
+   color: var(--color-lightest);
 }
 
+a:hover{
+   color: var(--color-white);
+}
 
 
 button {
