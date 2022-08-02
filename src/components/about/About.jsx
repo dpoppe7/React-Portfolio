@@ -13,8 +13,6 @@ const About = () => {
     AOS.refresh();
   }, []);
 
-  let time = new Date().toLocaleTimeString();
-
   return (
     <section id='about'
     data-aos="fade-right"
@@ -45,13 +43,7 @@ const About = () => {
             You can find me posting content on my <a href="https://github.com/dpoppe7" target="_blank" className='github_link'>github<FiArrowUpRight className='link-icon'/></a><br/><br/>
           </p>
 
-          <a href={CV} target='_blank' className='btn'>Get my resume</a>
-          <p>{time}</p>
-          <p className='times'>
-            <div>
-              <p></p>
-            </div>
-          </p>
+          <a href='#contact' className='btn'>Contact me</a>
         </div>
       </div>
     </section>

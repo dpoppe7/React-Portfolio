@@ -79,8 +79,8 @@
     border: 1px solid var(--color-primary);
     justify-content: space-between;
     align-items: center;
-    height: 1.6rem;
-    width: 4rem;
+    height: 2rem;
+    width: 5rem;
     cursor: pointer;
     position: fixed;
     top: 0;
