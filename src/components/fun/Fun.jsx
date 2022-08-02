@@ -1,9 +1,21 @@
 import React from 'react'
 import './fun.css'
+import {useEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Fun = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
-    <section id='fun'>
+    <section id='fun'
+    data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-duration='6000'
+    data-aos-easing="ease-in-sine">
       <h2>Outside of work</h2>
 
       <div className="container fun__container">

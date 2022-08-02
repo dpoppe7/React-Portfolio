@@ -6,6 +6,9 @@ import IMG1 from '../../assets/Sky orange.jpeg'
 import P1_pics from '../../assets/P1_pics.png'
 import P2_pics2 from '../../assets/P2_pics2.png'
 import P3_pics from '../../assets/P3_pics.png'
+import {useEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 /* Array of Data */
 const data = [
@@ -42,8 +45,17 @@ const data = [
 ]
 
 const Portfolio = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
-    <section id='portfolio'>
+    <section id='portfolio'
+    data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-duration='6000'
+      data-aos-easing="ease-in-sine">
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
 

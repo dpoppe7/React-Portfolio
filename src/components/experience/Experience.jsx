@@ -3,10 +3,22 @@ import './experience.css'
 import {MdDone} from 'react-icons/md'
 import {BiBookBookmark} from 'react-icons/bi'
 import {VscDebugBreakpointFunctionUnverified} from 'react-icons/vsc'
+import {useEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Experience = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
-    <section id='experience'>
+    <section id='experience' 
+    data-aos="fade-left"
+    data-aos-offset="300"
+    data-aos-duration='6000'
+    data-aos-easing="ease-in-sine">
       <h5></h5>
       <h2>Skills</h2>
 

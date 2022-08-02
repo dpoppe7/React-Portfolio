@@ -1,10 +1,22 @@
 import React from 'react'
 import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
+import {useEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+  
   return (
-    <section id='contact'>
+    <section id='contact'
+    data-aos="fade-left"
+      data-aos-offset="300"
+      data-aos-duration='6000'
+      data-aos-easing="ease-in-sine">
       <h5>Get in Touch</h5>
       <h2> Contact Me</h2>
       

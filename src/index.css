@@ -63,6 +63,7 @@
    --color-toggle-active: rgba(77, 213, 255, 0.54);
 
    background-image: none;
+   transition: var(--transition);
 }
 
 html {

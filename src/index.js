@@ -2,8 +2,6 @@
  import ReactDOM from 'react-dom'
  import App from './App'
  import './index.css'
- import {AiOutlineHome} from 'react-icons/ai'
-
 
  ReactDOM.render(<App/>, document.querySelector("#root"));
 

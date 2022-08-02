@@ -3,15 +3,29 @@ import './about.css'
 import ME from '../../assets/me2.jpeg'
 import {FiArrowUpRight} from 'react-icons/fi'
 import CV from '../../assets/Resume.v1.pdf'
-
+import {useEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
+  let time = new Date().toLocaleTimeString();
+
   return (
-    <section id='about'>
+    <section id='about'
+    data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-duration='6000'
+     data-aos-easing="ease-in-sine">
       <h5>Get to know</h5>
       <h2>About Me</h2>
+      
 
-      <div className="container about__container">
+      <div className="container about__container" >
         <div className='about__me'>
           <div className='about__me-image'>
             <img src={ME} alt="About"/>
@@ -32,6 +46,12 @@ const About = () => {
           </p>
 
           <a href={CV} target='_blank' className='btn'>Get my resume</a>
+          <p>{time}</p>
+          <p className='times'>
+            <div>
+              <p></p>
+            </div>
+          </p>
         </div>
       </div>
     </section>
