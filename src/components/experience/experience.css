@@ -92,6 +92,10 @@
  
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
+    #experience{
+        padding-top: 2.5rem;
+    }
+
     .experience__container {
         gap: 1rem;
     }
@@ -115,11 +119,11 @@
 @media screen and (max-width: 560px) {
     .skills__item {
         display: flex;
-        gap: 0.2rem;
+        gap: 0.5rem;
     }
 
     .skills__content {
-        padding-left: 2%;
-        padding-right: 2.5%;
+        padding-left: 4%;
+        padding-right: 1%;
     }
 }

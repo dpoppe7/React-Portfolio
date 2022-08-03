@@ -99,6 +99,10 @@
  
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
+    #portfolio{
+        padding-top: 2.5rem;
+    }
+
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;

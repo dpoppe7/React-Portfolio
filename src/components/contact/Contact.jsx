@@ -4,6 +4,8 @@ import { MdOutlineEmail } from 'react-icons/md'
 import {useEffect} from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   useEffect(() => {
@@ -11,6 +13,15 @@ const Contact = () => {
     AOS.refresh();
   }, []);
   
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ngk9nba', 'template_8vem7tv', form.current, 'PpQpXTGKoUdVQlR5K');
+
+    e.target.reset();
+  };
+
   return (
     <section id='contact'
     data-aos="fade-left"
@@ -28,7 +39,7 @@ const Contact = () => {
           </a>
         </div>
 
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <h2 className='connect_desc'>
             Tell me more about you ✦
           </h2>

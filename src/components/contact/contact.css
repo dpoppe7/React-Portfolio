@@ -47,10 +47,11 @@ a:hover{
 
 
 button {
-   font-size: 15px;
+   font-size: 16px;
    margin-top: 1rem;
    margin: auto;
    font-family: 'Poppins', sans-serif;
+   font-weight: light;
 }
 
  /* ============ FORM ============= */
@@ -82,6 +83,10 @@ input, textarea {
  
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
+   #contact{
+      padding-top: 2.5rem;
+   }
+
    .container.contact__container {
       width: var(--container-width-sm );
    }

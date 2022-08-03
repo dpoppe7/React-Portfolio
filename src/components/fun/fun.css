@@ -71,6 +71,10 @@
  
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
+    #fun{
+        padding-top: 2.5rem;
+    }
+
     .container.fun__container{
         width: 100%;
     }

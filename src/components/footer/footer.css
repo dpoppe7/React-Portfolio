@@ -9,10 +9,14 @@ footer a {
     color: var(--color-light);
 }
 
+.mobile-socials{
+    display: none;
+}
+
 .footer__logo {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     display: inline-block;
 }
 
@@ -23,6 +27,18 @@ footer a {
 
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
+    .mobile-socials{
+        display: flex;
+        text-align: center;
+        height: 100%;
+        position: relative;
+        padding-bottom: 0.8rem;
+        padding-top: 0.5rem;
+        font-size: 21px;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
     .footer__copyright {
         margin-bottom: 4rem;
     }
