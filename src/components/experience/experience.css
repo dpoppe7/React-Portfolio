@@ -98,7 +98,7 @@
 
     .skills__content {
         padding-left: 5%;
-        padding-right: 3%;
+        padding-right: 2.5%;
     }
 
     .courses__content {
@@ -109,3 +109,17 @@
         margin: 0 1rem;
     }
 } 
+
+/* ============= MEDIA QUERIES (SMALLER DEVICES) ============== */
+/* This is for the skills section list, to make all items fit one line*/
+@media screen and (max-width: 560px) {
+    .skills__item {
+        display: flex;
+        gap: 0.2rem;
+    }
+
+    .skills__content {
+        padding-left: 2%;
+        padding-right: 2.5%;
+    }
+}
