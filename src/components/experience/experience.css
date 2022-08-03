@@ -1,0 +1,129 @@
+#experience {
+    padding-top: 7rem;
+}
+
+.skills__container p {
+    margin: 0;
+    color: var(--color-lightest);
+}
+
+.skills__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-left: 30%;
+    padding-right: 20%;
+    align-self: start;
+    justify-items: left;
+    background: var(--color-primary-variant-bg);
+    border: 1px solid var(--color-primary-variant);
+    transition: var(--transition);
+}
+
+.skills__item {
+    display: flex;
+    gap: 1rem;
+}
+
+.skills__item-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+    transform: rotate(-30deg);
+}
+
+.skills__item > div > p {
+    margin: 0;
+    color: var(--color-white);
+}
+
+.skills__content:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.courses__content {
+    display: grid;
+    margin-top: 0rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+
+.courses__box {
+    color: var(--color-light);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    align-self: start;
+    justify-items: left;
+}
+
+.courses__list{
+    margin-top: 3rem;
+}
+
+.courses__sentence {
+    color: var(--color-lightest);
+}
+
+.icon__class {
+    margin-right: 0.5rem;
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+
+/* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills__content {
+        padding-left: 20%;
+        padding-right: 10%;
+    }
+}
+ 
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 600px) {
+    #experience{
+        padding-top: 2.5rem;
+    }
+
+    .experience__container {
+        gap: 1rem;
+    }
+
+    .skills__content {
+        padding-left: 5%;
+        padding-right: 2.5%;
+    }
+
+    .courses__content {
+        grid-template-columns: 1fr;
+    }
+
+    .courses__list{
+        margin: 0 1rem;
+    }
+} 
+
+/* ============= MEDIA QUERIES (SMALLER DEVICES) ============== */
+/* This is for the skills section list, to make all items fit one line*/
+@media screen and (max-width: 560px) {
+    .skills__item {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .skills__content {
+        padding-left: 4%;
+        padding-right: 1%;
+    }
+}

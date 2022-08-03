@@ -1,0 +1,93 @@
+#contact {
+   padding-top: 7rem;
+}
+
+.container.contact__container {
+   width: 58%;
+   gap: 12%;
+   padding: 0 3rem;
+}
+
+.connect_desc {
+   color: var(--color-lightest);
+   margin: 0;
+   font-size: 15px;
+   text-align: left;
+}
+
+/*========== CONTACT ===========*/
+
+.contact_link:hover{
+   text-shadow: 2px 2px 5px var(--color-primary);
+}
+
+.contact__option-icon {
+   font-size: 1.5rem;
+}
+
+.contact_link {
+   color: var(--color-lightest);
+   text-align: center;
+   padding-bottom: 4rem;
+}
+
+.contact_link:hover{
+   color: var(--color-white);
+   transition: var(--transition);
+   cursor: pointer;
+}
+
+a {
+   color: var(--color-lightest);
+}
+
+a:hover{
+   color: var(--color-white);
+}
+
+
+button {
+   font-size: 16px;
+   margin-top: 1rem;
+   margin: auto;
+   font-family: 'Poppins', sans-serif;
+   font-weight: light;
+}
+
+ /* ============ FORM ============= */
+form {
+   display: flex;
+   flex-direction: column;
+   gap: 1.2rem;
+}
+
+input, textarea {
+   width: 100%;
+   padding: 1.5rem;
+   border-radius: 0.5rem;
+   background: transparent;
+   border: 1.5px solid var(--color-primary-variant);
+   resize: none;
+   font-size: 13px;
+   color: var(--color-white);
+}
+
+/* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
+@media screen and (max-width: 1024px) {
+   .container.contact__container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 0;
+   }
+}
+ 
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 600px) {
+   #contact{
+      padding-top: 2.5rem;
+   }
+
+   .container.contact__container {
+      width: var(--container-width-sm );
+   }
+} 
