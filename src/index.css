@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* ============ GRADIENT EFFECT =========== */
+  
+/* .gradient {
+   width: 100%;
+   height: 100%;
+   background-image: radial-gradient(at 300px 300px, rgba(0, 181, 191, 0.08) 0, transparent 40%);
+} */
+/* ============ END OF GRADIENT EFFECT =========== */
+
+* {  /*Every component in the website*/
+   margin: 0; 
+   padding: 0;
+   border: 0;
+   outline: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+ }
+*::selection{
+   background: var(--color-selector);
+}
+
+:root {  /* Creating css variables, root variables can be used anywhere in the project. */
+   --color-bg: rgb(4, 20, 39); 
+   --color-bg-variant: #112240;
+   --color-primary: rgb(87, 214, 242);
+   --color-primary-light: rgba(87, 214, 242, 0.1);
+   --color-primary-variant: rgba(77, 181, 255, 0.4);
+   --color-primary-variant-bg: rgba(77, 181, 255, 0.057);
+   --color-white: #fff;
+   --color-light:  #8892b0;
+   --color-lightest: #a8b2d1;
+   --color-selector: rgba(117, 187, 234, 0.194);
+
+   --color-nav: rgba(0, 0, 0, 0.25);
+   --color-nav-icon: #75777f;
+   --color-toggle-active: rgba(77, 213, 255, 0.352);
+   
+   --transition: all 400ms ease;
+
+   --container-width-lgr: 60%;
+   --container-width-lg: 75%;
+   --container-width-md: 70%;
+   --container-width-sm: 85%;
+}
+
+.light-theme{
+   --color-bg: #ffffffbb; 
+   --color-bg-variant: #112240;
+   --color-primary: rgb(3, 179, 243);
+   --color-primary-light: rgba(87, 214, 242, 0.294);
+   --color-primary-variant: rgb(47, 172, 240);
+   --color-primary-variant-bg: rgba(77, 213, 255, 0.171);
+   --color-white: rgb(0, 0, 0);
+   --color-light:  #6d6e75;
+   --color-lightest: #5d5e61;
+   --color-selector: rgba(117, 187, 234, 0.269);
+
+   --color-nav: rgba(135, 135, 135, 0.194);
+   --color-nav-icon: #75777f;
+   --color-toggle-active: rgba(77, 213, 255, 0.54);
+
+   background-image: none;
+   transition: var(--transition);
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   background: var(--color-bg);
+   color: var(--color-white);
+   line-height: 1.7;
+   background-image: url(../src/assets/navy.png);
+}
+
+/* ============= GENERAL STYLES ============== */
+.container {
+   width: var(--container-width-lg);
+   margin: 0 auto; 
+}
+
+h1, h2, h3, h4, h5 {
+   font-weight: 500;
+}
+
+h1 {
+   font-size: 2.5rem;
+}
+
+h2 {
+   font-size: 1.1rem;
+   margin-bottom: 1rem;
+}
+
+section {
+   padding-top: 7rem;
+   margin-top: 7rem;
+}
+
+section > h2, section > h5 {    /* direct child of section */
+   text-align: center;
+   color: var(--color-light);
+}
+
+section > h2 {
+   color: var(--color-primary);
+   margin-bottom: 3rem;
+}
+
+.text-light {
+   color: var(--color-light);
+}
+
+a {
+   color: var(--color-lightest);
+   transition: var(--transition);
+}
+
+a:hover {
+   color: var(--color-primary);
+}
+
+.btn {
+   width: max-content;
+   display: inline-block;
+   color: var(--color-primary);
+   padding: 0.75rem 1.2rem;
+   border-radius: 0.4rem;
+   cursor: pointer;
+   border: 1px solid;
+   border-image-slice: 1;
+   transition: var(--transition);
+}
+
+.btn:hover {
+   background-color: var(--color-primary-light);
+   color: var(--color-primary);
+}
+
+.btn-primary {
+   background-color: var(--color-primary-light);
+   color: var(--color-primary);
+}
+
+img {
+   display: block;
+   width: 100%;
+   object-fit: cover;
+}
+
+/* ============= MEDIA QUERIES (BIG DEVICES) ============== */
+@media screen and (min-width: 1800px) {
+   .container {
+      width: var(--container-width-lgr);
+   }
+
+   section {
+      margin-top: 6rem;
+   }
+}
+
+/* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
+@media screen and (max-width: 1024px) {
+   .container {
+      width: var(--container-width-md)
+   }
+
+   section {
+      margin-top: 6rem;
+   }
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 600px) {
+   .container {
+      width: var(--container-width-sm)
+   }
+
+   section > h2{
+      margin-bottom: 2rem;
+   }
+}
