@@ -38,7 +38,7 @@ const data = [
     project: 'Android App Group Project',
     title: 'Password Manager App',
     github: 'https://github.com/dpoppe7/Password-Manager-Project',
-    description: 'A basic Password Manager Android app that allows users to store different usernames and passwords, for multiple accounts. Using API implementation from "Have I Been Pwned", this app checks whether the data has been involved in a data breach ',
+    description: 'A basic Password Manager Android app that allows users to store different usernames and passwords, for multiple accounts. Using API implementation from "Have I Been Pwned", this app checks whether the data has been involved in a data breach.',
     tags: 'Kotlin Android Volley API RecyclerViews Figma',
     demo: 'https://github.com/dpoppe7/Password-Manager-Project'
   }
