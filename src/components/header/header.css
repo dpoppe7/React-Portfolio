@@ -3,7 +3,7 @@ header {
 }
 
 /* Removes side scroll bar */
-html, body {
+/*html, body {
     overflow-x: hidden;
 }
 body {
