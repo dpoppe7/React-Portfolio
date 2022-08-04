@@ -27,7 +27,7 @@ const data = [
     image: P2_pics2,
     project: 'Game Dev Group Project',
     title: 'Rocket Rush - Capstone',
-    github: 'https://github.com/dpoppe7/SpaceRace',
+    github: 'https://github.com/dpoppe7/Rocket-Rush-SpaceRace',
     description: 'A 3D game based on the board game Santorini. This project implements Networking and AI features for different game modes, multiplayer or single player. The GUI of the game was my main focus.',
     tags: 'Unity C# 3D Blender PUN2 SharpNEAT InnoWizard',
     demo: 'https://play.unity.com/mg/other/rocketrushweb'
