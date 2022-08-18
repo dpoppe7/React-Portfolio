@@ -6,6 +6,7 @@ import IMG1 from '../../assets/Sky orange.jpeg'
 import P1_pics from '../../assets/P1_pics.png'
 import P2_pics2 from '../../assets/P2_pics2.png'
 import P3_pics from '../../assets/P3_pics.png'
+import P4_pics from '../../assets/Website.png'
 import {useEffect} from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -41,6 +42,16 @@ const data = [
     description: 'A basic Password Manager Android app that allows users to store different usernames and passwords, for multiple accounts. Using API implementation from "Have I Been Pwned", this app checks whether the data has been involved in a data breach.',
     tags: 'Kotlin Android Volley API RecyclerViews Figma',
     demo: 'https://github.com/dpoppe7/Password-Manager-Project'
+  },
+  {
+    id: 4,
+    image: P4_pics,
+    project: 'Website Portfolio Project',
+    title: 'Personal Portfolio Website',
+    github: 'https://github.com/dpoppe7/React-Portfolio/tree/main',
+    description: 'A one-page website built with ReactJS. With this personal project I was able to display some of my latests projects/interests/about-me in a visually and interactive way. Easy to navigate through and mobile responsive design.',
+    tags: 'ReactJS CSS3 Javascript useStateHooks ReactIcons',
+    demo: 'https://dpoppe7.github.io/React-Portfolio/'
   }
 ]
 
