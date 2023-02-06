@@ -31,8 +31,15 @@ h2.text-light{
     color: var(--color-primary);
 }
 
+.icon__intern{
+    color: rgb(26, 245, 26);
+    padding-right: 5px;
+}
+
 .intern-txt.text-light{
+    padding-top: 10px;
     margin-bottom: 1rem;
+    color: var(--color-lightest);
     text-decoration: underline;
     text-decoration-color: var(--color-lightest);  
 }
