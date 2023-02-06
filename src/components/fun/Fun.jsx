@@ -22,19 +22,19 @@ const Fun = () => {
         <div className='item__container'>
           <h5 className='item__text'>Listening to</h5>
           
-          <a href='https://open.spotify.com/track/40riOy7x9W7GXjyGp4pjAv?si=d5cdaafbad2045ad' target="_blank">
+          <a href='https://open.spotify.com/playlist/0pXLIuXouwbs5nxtMdDSgs' target="_blank">
             <div className='fun item__song'/>
-            <p className='item__name'>Hotel California</p>
-            <p className='item__subname'>Eagles</p>
+            <p className='item__name'>Bright • Focus 📚✨</p>
+            <p className='item__subname'>Damaris' Playlist</p>
           </a>
         </div>
 
         <div className='item__container'>
           <h5 className='item__text'>Reading</h5>
-          <a href='https://www.goodreads.com/book/show/13079982-fahrenheit-451' target="_blank">
+          <a href='https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban' target="_blank">
             <div className='fun item__book'/>
-            <p className='item__name'>Fahrenheit 451</p>
-            <p className='item__subname'>Ray Bradbury</p>
+            <p className='item__name'>Harry Potter and the Prisoner of Azkaban</p>
+            <p className='item__subname'>J.K. Rowling</p>
           </a>
         </div>
 

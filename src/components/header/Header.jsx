@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import {AiTwotoneCheckCircle} from 'react-icons/ai'
 import CTA from './CTA'
 import ME from '../../assets/Me.jpg'
 import HeaderSocials from './HeaderSocials'
@@ -28,9 +29,11 @@ const Header = () => {
           <h5 className="text-light">
             Studying CS at Harding University in Arkansas. 
           </h5>
-          <h5 className="intern-txt text-light">
-            Looking for a Fall Internship, 2022.
-          </h5>
+          
+          <p className="intern-txt text-light">
+            <AiTwotoneCheckCircle className='icon__intern'/>
+            Looking for a Summer Internship, 2023.
+          </p>
           <CTA/>
         </div>
         <HeaderSocials/> 

@@ -24,7 +24,7 @@ const Contact = () => {
 
   return (
     <section id='contact'
-    data-aos="fade-left"
+    data-aos="fade-right"
       data-aos-offset="300"
       data-aos-duration='6000'
       data-aos-easing="ease-in-sine">
