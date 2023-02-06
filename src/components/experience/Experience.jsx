@@ -15,13 +15,13 @@ const Experience = () => {
 
   return (
     <section id='experience' 
-    data-aos="fade-left"
-    data-aos-offset="300"
-    data-aos-duration='6000'
-    data-aos-easing="ease-in-sine">
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-duration='6000'
+      data-aos-easing="ease-in-sine">
       <h5></h5>
       <h2>Skills</h2>
-
+      
       <div className='container skills__container'>
         <p>
           Here are a few technologies and languages I've been working with recently:<br/>
@@ -35,12 +35,7 @@ const Experience = () => {
               </div>
           </article>
 
-          <article className='skills__item'>
-            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
-              <div>
-                  <p>Phyton</p>
-              </div>
-          </article>
+          
 
           <article className='skills__item'>
             <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
@@ -52,7 +47,28 @@ const Experience = () => {
           <article className='skills__item'>
             <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
               <div>
-                  <p>PHP</p>
+                  <p>Node.js</p>
+              </div>
+          </article>
+
+          <article className='skills__item'>
+            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
+              <div>
+                  <p>Phyton</p>
+              </div>
+          </article>
+
+          <article className='skills__item'>
+            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
+              <div>
+                  <p>PHP, SQL</p>
+              </div>
+          </article>
+
+          <article className='skills__item'>
+            <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
+              <div>
+                  <p>JavaScript</p>
               </div>
           </article>
 
@@ -66,14 +82,14 @@ const Experience = () => {
           <article className='skills__item'>
             <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
               <div>
-                  <p>Unity, Blender</p>
+                  <p>Swift</p>
               </div>
           </article>
 
           <article className='skills__item'>
             <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
               <div>
-                  <p>Swift</p>
+                  <p>Unity, Blender</p>
               </div>
           </article>
 
@@ -96,13 +112,18 @@ const Experience = () => {
 
           <div className='courses__box courses__list'>
             <p>
-              <BiBookBookmark className='icon__class'/>
-              iOS Development
+              <MdDone className='icon__class'/>
+              Functional Programming
             </p>
 
             <p>
               <MdDone className='icon__class'/>
-              Android Development
+              Graphical User Interface
+            </p>
+
+            <p>
+              <MdDone className='icon__class'/>
+              Android and iOS Development
             </p>
 
             <p>
@@ -118,11 +139,6 @@ const Experience = () => {
             <p>
               <MdDone className='icon__class'/>
               Database and Networking
-            </p>
-
-            <p>
-              <MdDone className='icon__class'/>
-              Linear Algebra
             </p>
           </div>
         </div>

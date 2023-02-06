@@ -3,7 +3,7 @@
 }
 
 .skills__container p {
-    margin: 0;
+    margin: auto;
     color: var(--color-lightest);
 }
 
