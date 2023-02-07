@@ -9,7 +9,7 @@
 }
 
 .connect_desc {
-   color: var(--color-lightest);
+   color: var(--color-white);
    margin: 0;
    font-size: 15px;
    text-align: left;
@@ -68,8 +68,9 @@ input, textarea {
    background: transparent;
    border: 1.5px solid var(--color-primary-variant);
    resize: none;
-   font-size: 13px;
-   color: var(--color-white);
+   font-size: 14px;
+   font-family: 'Poppins', sans-serif;
+   color: var(--color-lightest);
 }
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
