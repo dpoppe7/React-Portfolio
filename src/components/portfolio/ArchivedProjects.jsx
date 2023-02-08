@@ -58,11 +58,11 @@ const Portfolio = () => {
 
   return (
     <div id='archivedProjects'
-    data-aos="fade-right"
-      data-aos-offset="300"
+    data-aos="fade-up"
+      data-aos-offset="150"
       data-aos-duration='6000'
       data-aos-easing="ease-in-sine">
-      <h2 className='title'>Other Projects I've Worked on</h2>  
+      <h2 className='title'>Other Projects I've worked on</h2>  
 
       <div className="archived_container">
         {

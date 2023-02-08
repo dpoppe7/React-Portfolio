@@ -24,7 +24,10 @@ const Contact = () => {
 
     e.target.reset();
 
-    //document.getElementById('success_msg').hidden = true;
+    //Submitted message disappears after 3 seconds
+    setTimeout(() => {
+      document.getElementById('success_msg').hidden = true;
+    }, 4000);
   };
 
   return (
@@ -55,7 +58,7 @@ const Contact = () => {
           </h2>
           <textarea name="message" rows="7" placeholder='Your Message' required />
           <button type="submit" className='btn btn-primary'>Send Message</button>
-          <div id='success_msg' hidden='True'>✦ Successfuly Submitted ✦</div>
+          <div id='success_msg' hidden='True' className='success__msg'>✦ Successfully Sent! ✦</div>
         </form>
       </div>
     </section>
