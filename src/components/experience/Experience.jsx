@@ -35,8 +35,6 @@ const Experience = () => {
               </div>
           </article>
 
-          
-
           <article className='skills__item'>
             <VscDebugBreakpointFunctionUnverified className='skills__item-icon'/>
               <div>

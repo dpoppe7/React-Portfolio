@@ -2,7 +2,6 @@ import React from 'react'
 import './portfolio.css'
 import {FiGithub} from 'react-icons/fi'
 import {HiOutlineExternalLink} from 'react-icons/hi'
-import IMG1 from '../../assets/Sky orange.jpeg'
 import P1_pics from '../../assets/P1_pics.png'
 import P2_pics2 from '../../assets/P2_pics2.png'
 import P3_pics from '../../assets/P3_pics.png'
@@ -10,6 +9,13 @@ import P4_pics from '../../assets/Website.png'
 import {useEffect} from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import {useState} from 'react'
+import Experience from '../experience/Experience'
+import ArchivedProjects from '../portfolio/ArchivedProjects'
+
+function loadButton() {
+  document.getElementById("LoadMoreBtn").innerHTML = 'Show Less';
+}
 
 /* Array of Data */
 const data = [
@@ -55,11 +61,14 @@ const data = [
   }
 ]
 
+
 const Portfolio = () => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+
+const [show, setShow] = useState(false);
 
   return (
     <section id='portfolio'
@@ -95,6 +104,11 @@ const Portfolio = () => {
             )
           })
         }
+
+      <button onLoad={loadButton} className='btn archived_box' onClick={() => setShow(currentShow => !currentShow)} id='LoadMoreBtn'>
+        Show More
+        { show ? <ArchivedProjects/> : null }
+      </button>
       </div>
     </section>
   )

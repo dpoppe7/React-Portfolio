@@ -75,6 +75,15 @@
     word-spacing: 10px;
 }
 
+.btn.archived_box{
+    background-color: var(--color-primary-variant-bg);
+}
+
+.btn.archived_box:hover {
+    background-color: var(--color-primary-variant-bg);
+    border-color: var(--color-primary-variant);
+}
+
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
     .portfolio__container {

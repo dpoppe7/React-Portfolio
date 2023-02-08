@@ -8,6 +8,7 @@ import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -19,7 +20,11 @@ const Contact = () => {
 
     emailjs.sendForm('service_ngk9nba', 'template_8vem7tv', form.current, 'PpQpXTGKoUdVQlR5K');
 
+    document.getElementById('success_msg').hidden = false;
+
     e.target.reset();
+
+    //document.getElementById('success_msg').hidden = true;
   };
 
   return (
@@ -50,6 +55,7 @@ const Contact = () => {
           </h2>
           <textarea name="message" rows="7" placeholder='Your Message' required />
           <button type="submit" className='btn btn-primary'>Send Message</button>
+          <div id='success_msg' hidden='True'>✦ Successfuly Submitted ✦</div>
         </form>
       </div>
     </section>
