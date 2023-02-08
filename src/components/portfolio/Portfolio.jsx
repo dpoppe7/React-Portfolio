@@ -13,10 +13,6 @@ import {useState} from 'react'
 import Experience from '../experience/Experience'
 import ArchivedProjects from '../portfolio/ArchivedProjects'
 
-function loadButton() {
-  document.getElementById("LoadMoreBtn").innerHTML = 'Show Less';
-}
-
 /* Array of Data */
 const data = [
   {
@@ -105,9 +101,10 @@ const [show, setShow] = useState(false);
           })
         }
 
-      <button onLoad={loadButton} className='btn archived_box' onClick={() => setShow(currentShow => !currentShow)} id='LoadMoreBtn'>
-        Show More
-        { show ? <ArchivedProjects/> : null }
+      <button className='btn archived_box' onClick={() => setShow(currentShow => !currentShow)} id='LoadMoreBtn'>
+        More Projects
+        { show ? (<ArchivedProjects/>)
+          : null }
       </button>
       </div>
     </section>
